@@ -68,7 +68,12 @@ public class CheckoutTest {
         Thread.sleep(1000);
         checkoutPage.enterCheckoutDetails("John", "Doe", "12345");
         Thread.sleep(1000);
-        Assert.assertFalse(driver.getCurrentUrl().contains("checkout-step-two.html"));
+        try {
+            Assert.assertFalse(driver.getCurrentUrl().contains("checkout-step-two.html"));
+        } catch (AssertionError e) {
+            System.out.println("Test Gagal");
+            throw e; // rethrow to ensure the test fails
+        }
     }
 
     @AfterMethod

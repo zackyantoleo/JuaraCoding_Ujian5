@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
-Test set: TestSuite
+Test set: com.ujian.CheckoutTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.54 s <<< FAILURE! -- in TestSuite
-com.ujian.CheckoutTest.checkoutWithEmptyCartTest -- Time elapsed: 4.904 s <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.87 s <<< FAILURE! -- in com.ujian.CheckoutTest
+com.ujian.CheckoutTest.checkoutWithEmptyCartTest -- Time elapsed: 4.663 s <<< FAILURE!
 java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertFalse(Assert.java:79)
 	at org.testng.Assert.assertFalse(Assert.java:89)
-	at com.ujian.CheckoutTest.checkoutWithEmptyCartTest(CheckoutTest.java:71)
+	at com.ujian.CheckoutTest.checkoutWithEmptyCartTest(CheckoutTest.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -34,9 +34,10 @@ java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)

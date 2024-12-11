@@ -1,67 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-11T18:02:53 WIB" name="Suite TestNG x Selenium" finished-at="2024-12-11T18:03:21 WIB" duration-ms="27433">
+  <suite started-at="2024-12-11T18:55:01 WIB" name="Surefire suite" finished-at="2024-12-11T18:55:22 WIB" duration-ms="21476">
     <groups>
     </groups>
-    <test started-at="2024-12-11T18:02:53 WIB" name="Firt My Test" finished-at="2024-12-11T18:03:21 WIB" duration-ms="27433">
-      <class name="com.ujian.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:53 WIB" name="setup" finished-at="2024-12-11T18:02:55 WIB" duration-ms="1551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="emptyCredentialsLoginTest()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:55 WIB" name="emptyCredentialsLoginTest" finished-at="2024-12-11T18:02:55 WIB" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyCredentialsLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:55 WIB" name="teardown" finished-at="2024-12-11T18:02:55 WIB" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:55 WIB" name="setup" finished-at="2024-12-11T18:02:57 WIB" duration-ms="1601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="invalidPasswordLoginTest()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:57 WIB" name="invalidPasswordLoginTest" finished-at="2024-12-11T18:02:57 WIB" duration-ms="301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidPasswordLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:57 WIB" name="teardown" finished-at="2024-12-11T18:02:57 WIB" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:57 WIB" name="setup" finished-at="2024-12-11T18:02:59 WIB" duration-ms="1391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="invalidUsernameLoginTest()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:59 WIB" name="invalidUsernameLoginTest" finished-at="2024-12-11T18:02:59 WIB" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidUsernameLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:59 WIB" name="teardown" finished-at="2024-12-11T18:02:59 WIB" duration-ms="126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:02:59 WIB" name="setup" finished-at="2024-12-11T18:03:00 WIB" duration-ms="1331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:03:00 WIB" name="validLoginTest" finished-at="2024-12-11T18:03:01 WIB" duration-ms="267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.LoginTest@61df66b6]" started-at="2024-12-11T18:03:01 WIB" name="teardown" finished-at="2024-12-11T18:03:01 WIB" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ujian.LoginTest -->
+    <test started-at="2024-12-11T18:55:01 WIB" name="Surefire test" finished-at="2024-12-11T18:55:22 WIB" duration-ms="21476">
       <class name="com.ujian.CheckoutTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:01 WIB" name="setup" finished-at="2024-12-11T18:03:02 WIB" duration-ms="1411" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:01 WIB" name="setup" finished-at="2024-12-11T18:55:02 WIB" duration-ms="1712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkoutWithEmptyCartTest()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:02 WIB" name="checkoutWithEmptyCartTest" finished-at="2024-12-11T18:03:07 WIB" duration-ms="4627" status="FAIL">
+        <test-method signature="checkoutWithEmptyCartTest()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:02 WIB" name="checkoutWithEmptyCartTest" finished-at="2024-12-11T18:55:07 WIB" duration-ms="4661" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -72,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertFalse(Assert.java:79)
 at org.testng.Assert.assertFalse(Assert.java:89)
-at com.ujian.CheckoutTest.checkoutWithEmptyCartTest(CheckoutTest.java:71)
+at com.ujian.CheckoutTest.checkoutWithEmptyCartTest(CheckoutTest.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -98,9 +48,10 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
@@ -111,35 +62,35 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutWithEmptyCartTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:07 WIB" name="teardown" finished-at="2024-12-11T18:03:07 WIB" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:07 WIB" name="teardown" finished-at="2024-12-11T18:55:07 WIB" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:07 WIB" name="setup" finished-at="2024-12-11T18:03:08 WIB" duration-ms="1188" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:07 WIB" name="setup" finished-at="2024-12-11T18:55:09 WIB" duration-ms="2217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="missingCheckoutDetailsTest()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:08 WIB" name="missingCheckoutDetailsTest" finished-at="2024-12-11T18:03:14 WIB" duration-ms="5643" status="PASS">
+        <test-method signature="missingCheckoutDetailsTest()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:09 WIB" name="missingCheckoutDetailsTest" finished-at="2024-12-11T18:55:15 WIB" duration-ms="5734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- missingCheckoutDetailsTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:14 WIB" name="teardown" finished-at="2024-12-11T18:03:14 WIB" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:15 WIB" name="teardown" finished-at="2024-12-11T18:55:15 WIB" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:14 WIB" name="setup" finished-at="2024-12-11T18:03:15 WIB" duration-ms="1132" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:15 WIB" name="setup" finished-at="2024-12-11T18:55:16 WIB" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="successfulCheckoutTest()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:15 WIB" name="successfulCheckoutTest" finished-at="2024-12-11T18:03:21 WIB" duration-ms="5665" status="PASS">
+        <test-method signature="successfulCheckoutTest()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:16 WIB" name="successfulCheckoutTest" finished-at="2024-12-11T18:55:22 WIB" duration-ms="5687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulCheckoutTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.CheckoutTest@47af7f3d]" started-at="2024-12-11T18:03:21 WIB" name="teardown" finished-at="2024-12-11T18:03:21 WIB" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ujian.CheckoutTest@27ae2fd0]" started-at="2024-12-11T18:55:22 WIB" name="teardown" finished-at="2024-12-11T18:55:22 WIB" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.ujian.CheckoutTest -->
-    </test> <!-- Firt My Test -->
-  </suite> <!-- Suite TestNG x Selenium -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
